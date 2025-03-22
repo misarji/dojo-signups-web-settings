@@ -1,0 +1,54 @@
+{
+  "globals": {
+    "bonusAction": true,
+    "toastr": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "/"]
+      }
+    }
+  },
+  "rules": {
+    "arrow-parens": ["error", "as-needed"], // ES6
+    "camelcase": "off", // style
+    "eqeqeq": "warn", // best-practices
+    "func-names": ["off"], // style
+    "comma-dangle": [
+      // style
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }
+    ],
+    "handle-callback-err": "error", // dojo
+    "no-unused-vars": "warn",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }], // dojo
+    "max-params": ["error", 3], // style
+    "no-async-promise-executor": "error", // errors
+    "no-console": "off", // errors
+    "no-continue": "off", // style
+    "no-return-assign": ["error", "except-parens"], // best-practices
+    "no-underscore-dangle": "off", // style
+    "no-use-before-define": [
+      "error",
+      { "functions": false, "classes": false, "variables": true }
+    ], // variables
+    "semi": ["warn", "never", { "beforeStatementContinuationChars": "always" }], // style
+    "semi-style": ["warn", "first"], // style
+    "spaced-comment": "off", // style
+    "import/no-unresolved": "warn",
+    "prefer-const": "warn",
+    "jest/expect-expect": [
+      "error",
+      {
+        "assertFunctionNames": ["assert"]
+      }
+    ]
+  }
+}

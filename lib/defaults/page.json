@@ -1,0 +1,35 @@
+{
+  "title": {
+    "desktop": {
+      "content": "<p class=\"ql-align-center\"><strong style=\"font-size: 18px;\" class=\"ql-font-Montserrat\">YOUR TITLE HERE</strong></p>",
+      "isViewable": true
+    },
+    "mobile": null
+  },
+  "subtitle": {
+    "desktop": {
+      "content": "<p class=\"ql-align-center\"><span style=\"font-size: 14px;\" class=\"ql-font-Montserrat\">Your subtitle here</span></p>",
+      "isViewable": true
+    },
+    "mobile": null
+  },
+  "heroImage": {
+    "fileName": null,
+    "url": null
+  },
+  "inputs": [],
+  "primaryButton": {
+    "desktop": {
+      "content": "<p class=\"ql-align-center\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\" class=\"ql-font-Montserrat\">SIGN UP</span></p>",
+      "isViewable": true
+    },
+    "mobile": null
+  },
+  "secondaryButton": {
+    "desktop": {
+      "content": "<p class=\"ql-align-center\"><span class=\"ql-font-Montserrat\" style=\"font-size: 14px;\">NO, THANK YOU</span></p>",
+      "isViewable": true
+    },
+    "mobile": null
+  }
+}

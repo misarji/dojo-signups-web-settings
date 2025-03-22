@@ -1,0 +1,98 @@
+{
+  "id": null,
+  "type": null,
+  "name": "Untitled Signup Form",
+  "status": "inactive",
+  "brandId": null,
+  "brandName": null,
+  "termsUrl": null,
+  "privacyUrl": null,
+  "domain": null,
+  "launchedAt": null,
+  "createdAt": null,
+  "smsCampaignId": null,
+  "autoCloseDelay": null,
+  "esp": {
+    "brandIntegrationId": null,
+    "listId": null,
+    "espDojoProperty": null
+  },
+  "trigger": {
+    "type": "immediately",
+    "delay": 5,
+    "allowListUrls": [],
+    "denyListUrls": [],
+    "displayFrequency": "every-session",
+    "displayFrequencyDelay": 30
+  },
+  "heroImage": {
+    "position": "left"
+  },
+  "brandLogo": {
+    "desktop": {
+      "url": null,
+      "size": 20,
+      "fileName": null
+    },
+    "mobile": null
+  },
+  "buttons": {
+    "primary": {
+      "desktop": {
+        "design": "filled",
+        "color": "#3F51B5",
+        "borderRadius": 4
+      },
+      "mobile": null
+    },
+    "secondary": {
+      "desktop": {
+        "design": "outline",
+        "color": "#3F5059",
+        "borderRadius": 4
+      },
+      "mobile": null
+    }
+  },
+  "fields": {
+    "desktop": {
+      "borderRadius": 4
+    },
+    "mobile": null
+  },
+  "themeColors": {
+    "background": {
+      "desktop": "#FFFFFF",
+      "mobile": null
+    },
+    "closeIcon": {
+      "desktop": "#3F5059",
+      "mobile": null
+    },
+    "legalText": {
+      "desktop": "#5A7481",
+      "mobile": null
+    },
+    "legalLinks": {
+      "desktop": "#3F51B5",
+      "mobile": null
+    },
+    "inputBorder": {
+      "desktop": "#757575",
+      "mobile": null
+    },
+    "inputBackground": {
+      "desktop": "#ffffff",
+      "mobile": null
+    },
+    "inputPlaceholder": {
+      "desktop": "#757575",
+      "mobile": null
+    },
+    "inputText": {
+      "desktop": "#3F5059",
+      "mobile": null
+    }
+  },
+  "pages": []
+}
