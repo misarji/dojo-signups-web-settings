@@ -45,7 +45,7 @@
     "treeify": "^1.1.0"
   },
   "peerDependencies": {
-    "joi": "^16.8.6",
+    "joi": "^17.1.1",
     "react": "^16.8.6"
   },
   "husky": {
