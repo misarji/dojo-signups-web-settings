@@ -46,7 +46,7 @@
   },
   "peerDependencies": {
     "joi": "^17.1.1",
-    "react": "^16.8.6"
+    "react": ">=16.8.6"
   },
   "husky": {
     "hooks": {
